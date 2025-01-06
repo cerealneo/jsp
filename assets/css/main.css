@@ -1,0 +1,413 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Do+Hyeon&family=Gamja+Flower&family=Gasoek+One&family=Nanum+Gothic:wght@800&display=swap');
+
+html,
+body,
+div,
+span,
+h1,
+h2,
+h3,
+img,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+article,
+footer,
+header,
+nav,
+section {
+	margin: 0;
+	border: 0;
+	vertical-align: baseline;
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+/* Basic */
+body {
+	background-color: #935d8c;
+	background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+	background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+	background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+	background-image: url("images/overlay.png"), linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+	line-height: 1.65;
+	color: rgba(255, 255, 255, 0.65);
+	font-family: 'Nanum Gothic', sans-serif;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Type */
+a {
+	text-decoration: none;
+	border-bottom: dotted 1px;
+	color: inherit;
+}
+
+h1 {
+	font-size: 2.5em;
+	font-weight: normal;
+	color: #ffffff;
+}
+
+h2 {
+	font-size: 1.5em;
+	color: #ffffff;
+}
+
+h3 {
+	font-size: 2em;
+	font-family: 'Do Hyeon', sans-serif;
+	font-weight: normal;
+	color: #ffffff;
+}
+
+/* List */
+ol li {
+	padding-left: 0.25em;
+}
+
+ul {
+	list-style: disc;
+	margin: 0 0 2em 0;
+	padding-left: 1em;
+}
+
+ul li {
+	padding-left: 0.5em;
+}
+
+dl dt {
+	display: block;
+	font-weight: 400;
+	margin: 0 0 1em 0;
+}
+
+dl dd {
+	margin-left: 2em;
+}
+
+dl.alt dt {
+	display: block;
+	width: 3em;
+	margin: 0;
+	clear: left;
+	float: left;
+}
+
+dl.alt dd {
+	margin: 0 0 0.85em 5.5em;
+}
+
+ul.icons {
+	cursor: default;
+	list-style: none;
+	padding-left: 0;
+}
+
+ul.icons li {
+	display: inline-block;
+	padding: 0 0.65em 0 0;
+}
+
+#sns-icons {
+	display: flex;
+	flex-direction: row-reverse;
+	align-items: center;
+	padding-right: 30px;
+}
+
+/* Section/Article */
+section.special,
+article.special {
+	text-align: center;
+}
+
+/* Table */
+table {
+	margin: 0 0 2em 0;
+	width: 100%;
+}
+
+	table tbody th tr {
+		border: solid 1px;
+		border-left: 0;
+		border-right: 0;
+	}
+
+	table td {
+		padding: 0.75em 0.75em;
+	}
+
+	table th {
+		font-size: 0.9em;
+		font-weight: 400;
+		padding: 0 0.75em 0.75em 0.75em;
+		text-align: center;
+	}
+
+	table thead {
+		border-bottom: solid 2px;
+	}
+
+	table.alt {
+		border-collapse: separate;
+	}
+
+		table.alt tbody tr td {
+			border: solid 1px;
+			border-left-width: 0;
+			border-top-width: 0;
+		}
+
+			table.alt tbody tr td:first-child {
+				border-left-width: 1px;
+			}
+
+		table.alt tbody tr:first-child td {
+			border-top-width: 1px;
+		}
+
+table.alt tbody tr td {
+	border-color: rgba(255, 255, 255, 0.35);
+}
+
+
+#second header h2{
+	padding-bottom: 20px;
+}
+
+/* Features */
+.features {
+	display: flex;
+	-webkit-justify-content: center;
+	justify-content: center;
+	width: calc(100% + 2em);
+	margin: 0 0 0 -2em;
+	padding: 0;
+	list-style: none;
+}
+
+.features li {
+	width: calc(33.33333% - 2em);
+	margin-left: 2em;
+	margin-top: 3em;
+	padding: 0;
+}
+
+.features p {
+	font-family: 'Nanum Gothic', sans-serif;
+	font-size: 20px;
+
+}
+
+/* Spotlight */
+.spotlight {
+	display: flex;
+	align-items: center;
+}
+
+.spotlight .image {
+	display: inline-block;
+	margin-left: auto;
+	padding: 0.65em;
+	border-radius: 100%;
+	border: solid 1px;
+
+}
+
+.spotlight .image img {
+	display: block;
+	border-radius: 100%;
+	width: 16em;
+}
+
+/* Header */
+#header {
+	margin: 50px 0px;
+	text-align: center;
+}
+
+#header h1 {
+	font-family: 'Gasoek One', sans-serif;
+}
+
+/* Nav */
+#nav {
+	background-color: #ffffff;
+	color: #636363;
+	width: 64em;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	background-color: #f7f7f7;
+	border-top-left-radius: 0.25em;
+	border-top-right-radius: 0.25em;
+	text-align: center;
+}
+
+#nav h1 {
+	color: #636363;
+	font-family: 'Do Hyeon', sans-serif;
+	font-size: 50px;
+}
+
+#nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#nav ul li {
+	display: inline-block;
+	margin: 0 0.35em;
+	padding: 0;
+	vertical-align: middle;
+	font-family: 'Black Han Sans', sans-serif;
+	font-weight: normal;
+	font-size: 25px;
+}
+
+#nav ul li a {
+	display: inline-block;
+	height: 2.25em;
+	line-height: 2.25em;
+	padding: 0 1.25em;
+	border: 0;
+	border-radius: 8px;
+	box-shadow: inset 0 0 0 1px transparent;
+}
+
+#nav ul li a:hover {
+	background-color: rgba(222, 222, 222, 0.25);
+}
+
+/* Main */
+#main {
+	background-color: #ffffff;
+	color: #636363;
+	border-radius: 0.25em;
+}
+
+#main a:hover {
+	color: #636363;
+}
+
+#main h1,
+#main h2,
+#main h3{
+	color: #636363;
+}
+
+
+#main .spotlight .image {
+	border-color: #dddddd;
+}
+
+#main>.main {
+	padding: 3em 5em 3em 5em;
+	border-top: solid 1px #dddddd;
+}
+
+#main h2 {
+	font-family: 'Do Hyeon', sans-serif;
+	font-size: 40px;
+	font-weight: normal;
+}
+
+#main table tbody tr {
+	border-color: #dddddd;
+}
+
+	#main table tbody tr:nth-child(2n + 1) {
+		background-color: rgba(222, 222, 222, 0.25);
+	}
+
+#main table tfoot {
+	border-top-color: #dddddd;
+}
+
+#main table.alt tbody tr td {
+	border-color: #dddddd;
+}
+
+
+/* Footer */
+#footer {
+	padding: 0 0 0 0;
+	margin: 40px 0 0 0;
+}
+
+#footer h2{
+	font-family: 'Black Han Sans', sans-serif;
+	font-weight: normal;
+}
+
+#footer .copyright {
+	width: 100%;
+	margin: 2em 0 2em 0;
+	font-size: 0.8em;
+	text-align: center;
+}
+
+#footer-section-1 {
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+}
+
+/* Wrapper */
+#wrapper {
+	width: 64em;
+	margin: 0 auto;
+}
+
+/* Icon Size */
+.icon-size {
+	font-size: 25px;
+	text-align: right;
+	border-bottom: 0px !important;
+}
+
+/* Button */
+input[type="button"],
+button,
+.button {
+	border-radius: 8px;
+	border: 0;
+	cursor: pointer;
+	display: inline-block;
+	font-weight: 300;
+	height: 2.75em;
+	line-height: 2.75em;
+	min-width: 9.25em;
+	padding: 0 1.5em;
+	text-align: center;
+	font-family: 'Black Han Sans', sans-serif;
+}
+
+input[type="button"].special,
+button.special,
+.button.special {
+	background-color: #8cc9f0;
+	color: #ffffff !important;
+	box-shadow: none;
+}
+
+input[type="button"].special:hover,
+button.special:hover,
+.button.special:hover {
+	background-color: #9acff2;
+}
+
+#cta {
+	font-family: 'Nanum Gothic', sans-serif;
+}
